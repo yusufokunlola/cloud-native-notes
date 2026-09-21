@@ -68,21 +68,13 @@ Install the following:
     or simply run `curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash`
 
 
-## Verify your installation
+## Verify your installation 
 
-Run the following on your terminal:
-```
-docker --version
-kubectl version
-kind version
-python3 --version
-git version
-helm version
-```
+Run the verification script `./verify-week1.sh`
 
-If you can verify all installation, you are good to go!
+If your verification score is 100%, you are good to go!
 
-If not, try again and see what went wrong. Then rectify the error.
+If not, read the report and rectify the error(s).
 
 If you are stucked after several trials, ask for help in the group.
 
